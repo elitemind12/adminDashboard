@@ -1,7 +1,8 @@
-# adminDashboard
+# adminDashboard templates
 #created using
-- html
-- css 
-- js
-- nodejs 
-- express (nodejs module)
+- html [fe]
+- css [fe]
+- js  [be, fe]
+- ejs [be]
+- nodejs [be]
+- express (nodejs module) [be]
