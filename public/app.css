@@ -5329,3 +5329,46 @@ only screen and (min-width: 768px) and (max-width: 991px),
 .fw-900 {
     font-weight: 900;
 }
+
+/* ======= login-styles ======== */
+.main-wrapper-login {
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+    margin-left: 380px;
+    min-height: 100vh;
+    padding-bottom: 85px;
+    position: relative;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+only screen and (min-width: 768px) and (max-width: 991px),
+(max-width: 767px) {
+    .main-wrapper-login {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .main-wrapper-login {
+        padding-bottom: 110px;
+    }
+}
+
+.main-wrapper-login.active {
+    margin-left: 0;
+}
+
+.main-wrapper-login .container-fluid {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+@media (max-width: 767px) {
+    .main-wrapper-login .container-fluid {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
